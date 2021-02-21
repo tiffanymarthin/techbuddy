@@ -39,3 +39,6 @@ Our goal is to expand the app to be more interactive where it could also support
 * Find and host virtual events around learning new technologies together
 * Integration with Google Chrome Extension, so it will automatically open up the tutorial guide as users open certain web-applications (e.g. facebook.com will open up another tab for facebook tutorial from our app)
 * Android and iOS applications
+
+## Video Demo
+https://youtu.be/knPMG6CvSOo
