@@ -10,11 +10,12 @@ function HeroSection() {
           <div class="hero-link-items">
             <h2>Learn the latest technologies at Tech Buddy</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Scelerisque aenean dictumst tincidunt sollicitudin suscipit
-              fermentum. Imperdiet eget dictum at vitae tristique. Quis diam
-              tincidunt amet, vel gravida. Ultrices odio imperdiet libero
-              scelerisque.
+              Are you struggling with all these new technologies that suddenly
+              become essentials because of Covid?
+              <br />
+              Do not panic - you are not alone! We are here to help you and
+              guide you with our super step-by-step guide and descriptive
+              visuals.
             </p>
           </div>
         </div>

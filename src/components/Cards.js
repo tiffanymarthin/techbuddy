@@ -10,15 +10,14 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
+              src="images/zoom-1.png"
+              // label="Basic Features for Beginners"
+              path="/products"
+            />
+            <CardItem
               src="images/img-1.png"
               label="Youtube: Did you know?"
               path="/services"
-            />
-            <CardItem
-              src="images/img-2.png"
-              // text="Experience Football on Top of the Himilayan Mountains"
-              label="Youtube: 5 Basic Settings"
-              path="/products"
             />
             <CardItem
               src="images/img-3.png"
