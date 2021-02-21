@@ -3,7 +3,7 @@ import "../../App.css";
 import Zoom from "../Zoom";
 import ZoomContent from "../ZoomContent";
 
-function Products() {
+function ZoomBlog() {
   return (
     <>
       <Zoom />
@@ -12,4 +12,4 @@ function Products() {
   );
 }
 
-export default Products;
+export default ZoomBlog;
