@@ -6,7 +6,7 @@ import "../../App.css";
 export default function Services() {
   return (
     <>
-      <h1 className="services">SERVICES</h1>
+      {/* <h1 className="services">Tutorials for Popular Softwares</h1> */}
       <Cards />
     </>
   );
