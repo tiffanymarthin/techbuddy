@@ -11,34 +11,41 @@ h1 {
   display: flex;
   flex-flow: column;
   align-items: center;
-  max-width: 1120px;
-  width: 90%;
+  max-width: 1500px;
+  width: 100%;
   margin: 0 auto;
+  /* background: white; */
 }
 
 .cards__wrapper {
   position: relative;
   margin: 50px 0 45px;
+  /* background: red; */
 }
 
 .cards__items {
   margin-bottom: 24px;
+  /* background: blue; */
 }
 
 .cards__item {
   display: flex;
+  width: 278px;
+  height: 378px;
   flex: 1;
-  margin: 0 1rem;
+  margin: 0 2rem;
   border-radius: 10px;
+  /* background: blue; */
 }
 
 .cards__item__link {
   display: flex;
   flex-flow: column;
   width: 100%;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  /* height: 378px; */
+  /* box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17); */
+  /* -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017)); */
+  /* filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017)); */
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
@@ -47,7 +54,7 @@ h1 {
 .cards__item__pic-wrap {
   position: relative;
   width: 100%;
-  padding-top: 67%;
+  padding-top: 378px;
   overflow: hidden;
 }
 
@@ -61,12 +68,13 @@ h1 {
   position: absolute;
   bottom: 0;
   margin-left: 10px;
+  margin-bottom: 10px;
   padding: 6px 8px;
   max-width: calc((100%) - 60px);
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
   color: #fff;
-  background-color: #1f98f4;
+  /* background-color: #1f98f4; */
   box-sizing: border-box;
 }
 
@@ -89,9 +97,9 @@ h1 {
   transform: scale(1.1);
 }
 
-.cards__item__info {
+/* .cards__item__info {
   padding: 20px 30px 30px;
-}
+} */
 
 .cards__item__text {
   color: #252e48;

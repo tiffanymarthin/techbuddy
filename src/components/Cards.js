@@ -10,21 +10,42 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="images/img-3.jpg"
-              text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
+              src="images/img-1.png"
               label="Youtube: Did you know?"
               path="/services"
             />
             <CardItem
-              src="images/img-4.jpg"
-              text="Experience Football on Top of the Himilayan Mountains"
-              label="Adventure"
+              src="images/img-2.png"
+              // text="Experience Football on Top of the Himilayan Mountains"
+              label="Youtube: 5 Basic Settings"
               path="/products"
             />
             <CardItem
-              src="images/img-8.jpg"
-              text="Ride through the Sahara Desert on a guided camel tour"
-              label="Adrenaline"
+              src="images/img-3.png"
+              label="Google: Things you should l.."
+              path="/sign-up"
+            />
+          </ul>
+        </div>
+      </div>
+      <h1>Spotify</h1>
+      <div className="cards__container">
+        <div className="cards__wrapper">
+          <ul className="cards__items">
+            <CardItem
+              src="images/img-1.png"
+              label="Youtube: Did you know?"
+              path="/services"
+            />
+            <CardItem
+              src="images/img-2.png"
+              // text="Experience Football on Top of the Himilayan Mountains"
+              label="Youtube: 5 Basic Settings"
+              path="/products"
+            />
+            <CardItem
+              src="images/img-3.png"
+              label="Google: Things you should l.."
               path="/sign-up"
             />
           </ul>
