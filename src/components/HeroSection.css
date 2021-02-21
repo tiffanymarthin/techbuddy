@@ -1,6 +1,6 @@
 .hero-container {
-  background: #2168a6;
-  height: 100vh;
+  background: url("/images/img-home.png") center center/cover no-repeat;
+  height: 60vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -14,12 +14,54 @@
   color: #fff;
   font-size: 100px;
   margin-top: -100px;
+  justify-content: left;
 }
 
 .hero-container > p {
   margin-top: 8px;
   color: #fff;
   font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.hero-links {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-link-wrapper {
+  display: flex;
+}
+
+.hero-link-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 60px;
+  text-align: left;
+  width: 650px;
+  box-sizing: border-box;
+}
+
+.hero-link-items > h2 {
+  /* color: #fff;
+  font-size: 50px;
+  margin-top: -100px;
+  justify-content: left; */
+  margin-top: 8px;
+  color: #fff;
+  font-size: 36px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.hero-link-items > p {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 16px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
