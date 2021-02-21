@@ -9,13 +9,18 @@ function HeroSection() {
         <div className="hero-link-wrapper">
           <div class="hero-link-items">
             <h2>Learn the latest technologies at Tech Buddy</h2>
-            <p>What are you waiting for?</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Scelerisque aenean dictumst tincidunt sollicitudin suscipit
+              fermentum. Imperdiet eget dictum at vitae tristique. Quis diam
+              tincidunt amet, vel gravida. Ultrices odio imperdiet libero
+              scelerisque.
+            </p>
           </div>
         </div>
         <div className="hero-link-wrapper">
           <div class="hero-link-items">
-            <h1>Learn the latest technologies at Tech Buddy</h1>
-            <p>What are you waiting for?</p>
+            <img src="/images/img-landing.png"></img>
           </div>
         </div>
       </div>
