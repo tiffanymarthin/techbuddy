@@ -39,16 +39,45 @@ function ZoomContent() {
       <br />
       <br />
       <p>
+        1. Mute <br />
         This button can control your microphone within Zoom. Unlike in-person
         conversation, it’s a good manner to mute yourself when you are not
         talking/speaking so that other people in the room can hear clearly what
-        the speaker is saying without any distraction. Don’t worry. The way you
-        Mute/ Unmute yourself is pretty easy! All you have to do is click on it.
-        Once you click on the button, the red crossed line will appear on top of
-        the microphone icon. It means that you’re muted so no one can hear you
-        even though you’re talking. Make sure to turn it back on before you
-        speak!! The buttons will look like these :
+        the speaker is saying without any distraction.
+        <br />
+        Don’t worry. The way you Mute/ Unmute yourself is pretty easy! All you
+        have to do is click on it. Once you click on the button, the red crossed
+        line will appear on top of the microphone icon. It means that you’re
+        muted so no one can hear you even though you’re talking. Make sure to
+        turn it back on before you speak!! The buttons will look like these :
       </p>
+      <br />
+      <br />
+      <img src="/images/zc-3.png"></img>
+      <br />
+      <img src="/images/zc-4.png"></img>
+      <br />
+      <br />
+      <br />
+      <img src="/images/zc-5.png"></img>
+      <p>
+        2. Video
+        <br />
+        This button can control your microphone within Zoom. Unlike in-person
+        conversation, it’s a good manner to mute yourself when you are not
+        talking/speaking so that other people in the room can hear clearly what
+        the speaker is saying without any distraction.
+        <br />
+        Don’t worry. The way you Mute/ Unmute yourself is pretty easy! All you
+        have to do is click on it. Once you click on the button, the red crossed
+        line will appear on top of the microphone icon. It means that you’re
+        muted so no one can hear you even though you’re talking. Make sure to
+        turn it back on before you speak!! The buttons will look like these :
+      </p>
+      <br />
+      <br />
+      <img src="/images/zc-6.png"></img>
+      <p></p>
     </div>
   );
 }
