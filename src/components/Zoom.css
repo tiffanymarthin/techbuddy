@@ -1,0 +1,115 @@
+.zoom-container {
+  background: url("/images/zoom-background.png") center center/cover no-repeat;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+/* 
+  .zoom-container > h1 {
+    color: #fff;
+    font-size: 100px;
+    margin-top: -100px;
+    justify-content: left;
+  }
+  
+  .zoom-container > p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 32px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  } */
+
+.zoom-links {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.zoom-link-wrapper {
+  display: flex;
+}
+
+.zoom-link-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 30px;
+  /* margin-top: -100px; */
+  text-align: left;
+  width: 500px;
+  box-sizing: border-box;
+}
+
+.zoom-link-items > h2 {
+  /* color: #fff;
+    font-size: 50px;
+    margin-top: -100px;
+    justify-content: left; */
+  color: #fff;
+  /* margin-top: -50px; */
+  font-size: 36px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.zoom-link-items > p {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.zoom-link-items > img {
+  position: relative;
+  width: 70%;
+  overflow: hidden;
+  margin-top: -50px;
+  margin-left: 50px;
+}
+
+.zoom-btns {
+  margin-top: 32px;
+}
+
+.zoom-btns .btn {
+  margin: 6px;
+}
+
+.fa-play-circle {
+  margin-left: 4px;
+}
+
+@media screen and (max-width: 960px) {
+  .zoom-container > h1 {
+    font-size: 70px;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .zoom-container > h1 {
+    font-size: 50px;
+    margin-top: -100px;
+  }
+
+  .zoom-container > p {
+    font-size: 30px;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}

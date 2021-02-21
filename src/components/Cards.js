@@ -35,12 +35,12 @@ function Cards() {
             <CardItem
               src="images/spotify-1.png"
               label="Getting Started Spotify"
-              path="/services"
+              path="/sign-up"
             />
             <CardItem
               src="images/spotify-2.png"
               label="Listen while Driving"
-              path="/products"
+              path="/sign-up"
             />
             <CardItem
               src="images/spotify-3.png"
@@ -57,12 +57,12 @@ function Cards() {
             <CardItem
               src="images/google-1.png"
               // label="How to start a Meeting"
-              path="/services"
+              path="/sign-up"
             />
             <CardItem
               src="images/google-2.png"
               // label="Tips for Google Meets"
-              path="/products"
+              path="/sign-up"
             />
             <CardItem
               src="images/google-3.png"
@@ -79,12 +79,12 @@ function Cards() {
             <CardItem
               src="images/zoom-1.png"
               // label="Basic Features for Beginners"
-              path="/services"
+              path="/products"
             />
             <CardItem
               src="images/zoom-2.png"
               // label="Download Zoom"
-              path="/products"
+              path="/sign-up"
             />
             <CardItem
               src="images/zoom-3.png"

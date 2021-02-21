@@ -1,6 +1,13 @@
-import React from 'react';
-import '../../App.css';
+import React from "react";
+import "../../App.css";
+import Zoom from "../Zoom";
 
-export default function Products() {
-  return <h1 className='products'>PRODUCTS</h1>;
+function Products() {
+  return (
+    <>
+      <Zoom />
+    </>
+  );
 }
+
+export default Products;
